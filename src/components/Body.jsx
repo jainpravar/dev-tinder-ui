@@ -13,11 +13,12 @@ const Body = () => {
 
   const user = useSelector((state) => state.user);
   useEffect(() => {
-    !user && getUserProfile();
+    getUserProfile();
   }, []);
 
   const getUserProfile = async () => {
     try {
+      if (user) return;
       const res = await axios.get(BASE_URL + "/profile/view", {
         withCredentials: true,
       });
