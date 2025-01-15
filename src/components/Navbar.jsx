@@ -49,10 +49,24 @@ function Navbar() {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
               <li>
-                <a className="justify-between" onClick={()=> navigate("/profile")}>Profile</a>
+                <Link className="justify-between" to="/profile">
+                  Profile
+                </Link>
               </li>
               <li>
-                <a onClick={handleLogout}>Logout</a>
+                <Link className="justify-between" to="/connections">
+                  Connections
+                </Link>
+              </li>
+              <li>
+                <Link className="justify-between" to="/requests">
+                  Requests
+                </Link>
+              </li>
+              <li>
+                <Link className="justify-between" onClick={handleLogout}>
+                  Logout
+                </Link>
               </li>
             </ul>
           </div>
