@@ -24,7 +24,10 @@ const Connections = () => {
     getConnections();
   }, []);
   if (!connections) return;
-  if (connections.length < 1) return <h1 className="text-center text-bold text-2xl">No connection found!!</h1>
+  if (connections.length < 1)
+    return (
+      <h1 className="text-center text-bold text-2xl">No connection found!!</h1>
+    );
   return (
     <div className="text-center my-10">
       <h1 className="text-bold text-3xl">Connections</h1>
@@ -52,6 +55,9 @@ const Connections = () => {
               {age && gender && <p>{age + ", " + gender}</p>}
               <p>{about}</p>
             </div>
+            <Link to={"/chat/" + _id}>
+              <button className="btn btn-primary">Chat</button>
+            </Link>
           </div>
         );
       })}
