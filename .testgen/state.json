@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-16T18:18:33.899Z",
+  "files": {
+    "src/App.jsx": "b53939b64a589f33417a3827da23233a8711c7adaba2e8441ceab5b3c9acb92a",
+    "src/components/Body.jsx": "68aad76d7ad719b99a90ee8ad316881ee76550b764bfbf6fbddaaba98f2dea19",
+    "src/components/Chat.jsx": "185c8283d0f6614c5228a47230b8b8fd2db6cce10186aebce685fcaf893ebbf1",
+    "src/components/Connections.jsx": "5d7b5057b2144730f279016f2693ab38775ce4e6c97bb90d5a1d8e49ba0645a3",
+    "src/components/EditProfile.jsx": "8b3dec7d0dcb0c07b2f754c29eda42d0f336a81776251c0a470b069a2f808d95",
+    "src/components/Feed.jsx": "495f336054322faf251c81f5e69c388efaffbb5e21a9b529134927191b960ed4",
+    "src/components/Footer.jsx": "d8993362c7720b215e6b4c24bc9365ab03c98e4b5690b6c69391bcec86ce09d9",
+    "src/components/Login.jsx": "66d01df29699122cbbf954915e6caefb6775765db839ce81bb32883320884753",
+    "src/components/Navbar.jsx": "9650eb51a33e49414c5727dd7df6e67ed5fbe55fce522ab2b5f536a550554cf3",
+    "src/components/Profile.jsx": "4e590300e416ac9da65748475238187d622c98c31189229fb8398f6e03972240",
+    "src/components/Requests.jsx": "402f1ba9b1a8bd6530f918068c31876d4c85f6674c2fe0811c11ef8965ec24ed",
+    "src/components/UserCard.jsx": "fbafbef586bb59074f7861ccb6bcb85883bea28cfef886432059c11d6fd69c50",
+    "src/main.jsx": "430e51eda806cf2f39b116af068a95277b31610fc7034614a42cf7ebdec46ba3",
+    "src/store/appStore.js": "d2c9ff18fd7f5febfda225180077e53c446958565afb86176e0e2ff4a0d035b0",
+    "src/store/connectionsSlice.js": "33d21ebe0e3b9e61e5762cf8232dae1a6a38e9122a2be223055bd97e298520a8",
+    "src/store/feedSlice.js": "35ccc74844e8393e6d7d480471db39097ef27666e7b4c38d5f8438035b99cd5c",
+    "src/store/requestsSlice.js": "e323da89fbc209473e959c762bb9fe3b4b5057be5b26d794060be7ea349c9a8e",
+    "src/store/userSlice.js": "5f7ef21cf6d144d20d8dddfffb5db4c08df587f377962e0530fd120cb6f71a8b",
+    "src/utils/constants.js": "c38b637750859097b2d8aaeb597fe53f3361586e66c361203c8312d31a6749fe",
+    "src/utils/socket.js": "7ff8869e8630522c0df60e660da43057030d56c1ab922001364c9ef072b96cd3"
+  }
+}
