@@ -1,0 +1,6 @@
+{
+  "runner": "vitest",
+  "sourceDirs": ["src"],
+  "extensions": [".js", ".jsx"],
+  "testDir": "tests"
+}
